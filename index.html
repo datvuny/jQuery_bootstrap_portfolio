@@ -11,11 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
    
     <title>Dat Vu Portfolio</title>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/04c14a7f51.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="lib/jquery-3.6.4.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="js/app.js"></script>
 </head>
 <body>
@@ -45,7 +47,80 @@
             </ul>
         </div>
     </nav>
-    <section style="height: 100vh;"></section>
-    <section style="height: 100vh;"></section>
+
+    <header id="home">
+        <div class="container-fluid header-content">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="content-box">
+                        <h4>Welcome</h4>
+                        <h1>I'm <span class='element'></span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex minima quidem omnis, quam similique nobis reprehenderit minus tenetur sequi, nemo aut nisi eveniet tempora assumenda voluptatibus inventore corrupti quia!</p>
+                        <a href="#" class="btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about r-p" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/profile.jpg" class='img-fluid img-thumbnail' alt="profile picture">
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <h2>About Me</h2>
+                    <h4> Hola! <span style="color:#E96F85"></span> I'm Dat Vu</h4>
+                    <p>dat</p>
+                    <p>a</p>
+                    <p>t</p>
+                    <p>t</p>
+                    <p>t</p>
+                    <div>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/datvuny"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/dat-qvu/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100013149820155"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="exp-class" id="exp-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <h3>My Skills</h3>
+                </div>
+                <div class="col-md-6">
+                    <label>Html</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    <label>CSS</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    <label>JavaScript/React/nodeJS/jquery</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    <label>Python</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    <label>Figma/Adobe</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

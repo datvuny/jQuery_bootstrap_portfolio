@@ -101,7 +101,7 @@ nav.r-nav{
 
 nav .navbar-brand{
     font-size: 30px;
-    color: #fff;
+    color: #720a0a;
     transition: .5s all;
 }
 
@@ -135,7 +135,7 @@ nav.stickyadd .navbar-nav .nav-link{
 }
 
 .navbar .hamburger{
-    color: #fff;
+    color: #720a0a;
 }
 
 nav.stickyadd .hamburger{
@@ -148,10 +148,16 @@ nav.stickyadd .hamburger{
 header{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../images/background.jpg');
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../images/background.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.tk-blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
 }
 
 .header-content{
@@ -176,9 +182,9 @@ header{
 }
 
 .content-box a{
-    color: #fff;
+    color: #720a0a;
     text-decoration: none;
-    border: 2px solid #fff;
+    border: 2px solid #720a0a;
     border-radius: 20px;
     padding: 5px 25px;
 }

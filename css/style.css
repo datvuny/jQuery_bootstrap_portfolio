@@ -241,6 +241,23 @@ header{
     padding-bottom: 15px;
 }
 
+.work .container.asd .filtr-item {
+    padding: 15px;
+}
+
+.work .container.asd .card-wrapper {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+    .work .container.asd .card-wrapper {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
 /* Contact */
 
 .contact .r-icon{

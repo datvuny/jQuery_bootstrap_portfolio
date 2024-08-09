@@ -12,7 +12,7 @@ $(document).ready(function(){
     })
 
     const typed = new Typed('.element', {
-        strings: ["Dat Vu", "a Software Engineer"],
+        strings: ["Dat Vu", "a technophile"],
         smartBackspace:true,
         typeSpeed: 100,
         backSpeed: 150,
